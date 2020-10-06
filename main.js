@@ -53,7 +53,7 @@ function cc(rr, num){
 function gogo(tx){
 	if(typeof tked != 'undefined'){
 		//var tp = document.createElement("DIV");
-		tked.innerHTML = curn.toString() + `<br><span>${tx}</span>`;
+		tked.innerHTML = curn.toString() +"<br />" + tx;
 		//tp.style.color = color.value;
 		/*if(tked.childNodes.length > 1){
 			tked.removeChild(tked.lastElementChild);
